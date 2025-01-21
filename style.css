@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Color */
 /* 
@@ -6,7 +6,9 @@
     skyblue: #01ACFD 
     white : #F7F7F7 
     */
-
+html,body{
+    background-color: #f7f7ff;
+}
 
 * {
     margin: 0;
@@ -23,10 +25,12 @@
     font-family: Quicksand;
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .btn {
     align-content: center;
+    cursor: pointer;
 }
 
 /*  Navbar Style start from here */
@@ -142,16 +146,83 @@ nav ul li .li4 {
     margin: 10px;
     background-color: black;
     color:#F7F7F7;
-    padding: 10px;
+    padding: 10px 25px;
     font-size: 20px;
     font-family: Quicksand;
     font-weight: 700;
     border: none;
     border-radius: 12px;
+    cursor: pointer;
 }
 
 
+/* Curriculum  Section Start from here */
+#curriculum{
+    background-image: url(assets/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    align-content: center;
+    justify-content: center;
+}
 
+.curr-title{
+    font-family: Quicksand;
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.card-container{
+    max-width: 1000px;
+    margin: 0px auto;
+    display: flex;
+    gap: 20px;
+}
+.card{
+    width: 333px;
+    justify-items: center;
+    background-image: linear-gradient(#DEF5FF,#f7f7ff);
+    padding: 50px 20px;
+    border-radius: 15px;
+}
+.card2{
+    width: 333px;
+    justify-items: center;
+    background-image: linear-gradient(#FFF4DC,#ffffff);
+    padding: 50px 20px;
+    border-radius: 15px;
+}
+.card3{
+    width: 333px;
+    justify-items: center;
+    background-image: linear-gradient(#f3eefa,#ffffff);
+    padding: 50px 20px;
+    border-radius: 15px;
+}
+.card-title{
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    padding:10px;
+    text-align:center;
+}
+.card-description{
+    font-family: raleway;
+    font-size: 15px;
+    padding: 10px;
+    text-align:center;
+}
+.btn-card{
+    font-family: Quicksand;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    background-color: #F7F7F7;
+    color: #64C8FF;
+    cursor: pointer;
+}
 
 /*  Responsive for Header */
 
@@ -182,5 +253,14 @@ nav ul li .li4 {
     }
     .banner-description{
         font-size: 14px;
+    }
+
+    /* Curriculum Section style start from here */
+    .card-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .curr-title{
+        padding-top: 50px;
     }
 }
