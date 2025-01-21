@@ -223,6 +223,44 @@ nav ul li .li4 {
     color: #64C8FF;
     cursor: pointer;
 }
+.icon1,.icon2{
+    background-color: #FEA301;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px 12px;
+    color: #f3eefa;
+}
+.icon{
+    padding-top: 50px;
+    text-align: center;
+}
+
+/*  Story Section Start From Here */
+/* Footer Section Start From here */
+footer{
+    background-color: #01ACFD;
+    height: 400px;
+}
+.footer-container{
+    max-width: 1200px;
+    margin: 0px auto;
+    align-content: center;
+    justify-content: center;
+}
+.footer-title{
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 42px;
+}
+.foot-box{
+    display: flex;
+
+}
+.footer-content{
+    width: 400px;
+    align-content: center;
+    padding: 30px;
+}
 
 /*  Responsive for Header */
 
@@ -259,8 +297,12 @@ nav ul li .li4 {
     .card-container{
         flex-direction: column;
         align-items: center;
+        margin-bottom: 50px;
     }
     .curr-title{
         padding-top: 50px;
+    }
+    .icon{
+        display: none;
     }
 }
