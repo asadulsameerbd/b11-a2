@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+/* Color */
+/* 
+    orange : #FEA301
+    skyblue: #01ACFD 
+    white : #F7F7F7 
+    */
 
+
+* {
+    margin: 0;
+    padding: 0;
+}
 
 /* Shared style  */
 .btn-primary {
@@ -13,9 +24,11 @@
     font-size: 20px;
     font-weight: 600;
 }
-.btn{
+
+.btn {
     align-content: center;
 }
+
 /*  Navbar Style start from here */
 body {
     margin: 0px;
@@ -23,9 +36,8 @@ body {
 }
 
 header {
-    max-width: 1400px;
-    margin: 0px auto;
-    background-color:background: rgb(247, 247, 247);
+    width: 100%;
+    background-color: rgb(247, 247, 247);
 }
 
 .logo {
@@ -48,6 +60,7 @@ header {
 }
 
 .nav-container {
+    max-width: 1200px;
     display: flex;
     justify-content: space-between;
     margin: 0px auto;
@@ -98,4 +111,76 @@ nav ul li .li3 {
 
 nav ul li .li4 {
     color: rgb(93, 88, 239);
+}
+
+/*  Banner Style Start From here */
+#banner {
+    display: flex;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.leftside {
+    padding: 10px;
+    align-content: center;
+}
+
+.banner-title {
+    padding: 10px;
+    font-family: Quicksand;
+    font-size: 55px;
+    font-weight: 700px;
+}
+
+.banner-description {
+    padding: 10px;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight:400;
+}
+.butt{
+    margin: 10px;
+    background-color: black;
+    color:#F7F7F7;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Quicksand;
+    font-weight: 700;
+    border: none;
+    border-radius: 12px;
+}
+
+
+
+
+/*  Responsive for Header */
+
+@media (max-width:576px) {
+
+    nav,
+    .btn,
+    .logo>h3 {
+        display: none;
+    }
+
+    .nav-container {
+        width: 100%;
+    }
+    #banner{
+        flex-direction: column-reverse;
+        padding: 15px;
+    }
+    .rightside>img{
+        width: 100%;
+        justify-content: center;
+    }
+    .leftside{
+        text-align: center;
+    }
+    .banner-title{
+        font-size: 32px;
+    }
+    .banner-description{
+        font-size: 14px;
+    }
 }
