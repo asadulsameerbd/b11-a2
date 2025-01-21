@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+
+/* Shared style  */
+.btn-primary {
+    border-radius: 12px;
+    color: #ffffff;
+    background: rgb(254, 163, 1);
+    border: none;
+    padding: 10px 40px;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 600;
+}
+.btn{
+    align-content: center;
+}
+/*  Navbar Style start from here */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    max-width: 1400px;
+    margin: 0px auto;
+    background-color:background: rgb(247, 247, 247);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    padding: 15px;
+}
+
+.logo>h3 {
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+nav,
+.logo,
+.btn-primary {
+    align-content: center;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav>ul li {
+    list-style: none;
+    padding: 0px 20px;
+}
+
+nav ul li {
+    align-items: center;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+nav>ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li .li1 {
+    color: Orange;
+}
+
+nav ul li .li2 {
+    color: rgb(1, 172, 253);
+}
+
+nav ul li .li3 {
+    color: rgb(5, 212, 223);
+}
+
+nav ul li .li4 {
+    color: rgb(93, 88, 239);
+}
