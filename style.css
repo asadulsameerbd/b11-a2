@@ -342,89 +342,85 @@ img {
 
 /* Footer Section Start From here */
 
-footer {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+footer{
     background-color: rgb(1, 172, 253);
-    ;
-    height: 400px;
-    align-content: center;
+    padding: 70px 0px;
+}
+.row{
+    width: 30%;
 }
 
-.footer-container {
-    width: 1200px;
-    margin: 0px auto;
-    align-content: center;
+ul{
+    list-style: none;
+}
+li>a{
+    text-decoration: none;
+}
+.ft-img{
     display: flex;
 }
-
-.logo-part,
-.about-part,
-.keep-part {
-    width: 400px;
-    align-items: center;
-    justify-content: center;
+.ft-img>img{
+    width: 80px;
 }
-
-.about-part>h1 {
-    padding-left: 20px;
-    padding-bottom: 20px;
+.social-img>img{
+    display: inline;
+    width: 50px;
+    border-radius: 5px;
+    padding-top: 50px;
+    margin-right: 10px;
+    cursor: pointer;
 }
-
-.l-im {
-    display: flex;
-}
-
-.l-im img {
-    width: 82.9px;
-    height: 81.65px;
-    padding: 0px 20px;
-}
-
-.l-im h3,
-.about-part>h1,
-.keep-part>h1 {
+.ft-img>h3 , .footer-col>h3{
     color: rgb(255, 255, 255);
     font-family: Quicksand;
-    font-size: 42.14px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 39.51px;
     letter-spacing: 0%;
     text-align: left;
 }
 
-.logo-details {
+.footer-col>p{
     color: rgb(255, 255, 255);
     font-family: Quicksand;
     font-size: 20px;
     font-weight: 400;
     line-height: 25px;
-    letter-spacing: 0%;
     text-align: left;
-    padding: 30px;
+    padding: 20px 0px 0px 0px;
+}
+.footer-col ul{
+    padding-top: 30px;
+}
+.footer-col ul li>a{
+    color:white;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
 }
 
-.footer-nav>ul {
-    flex-direction: column;
-    text-align: left;
-    align-items: start;
-    justify-content: flex-start;
-}
 
-.footer-nav li {
-    line-height: 40px;
-}
 
-.footer-nav ul li>a {
-    color: #ffffff;
-    text-align: left;
-}
 
-.keep-part>i {
-    font-size: 25px;
-    padding-top: 40px;
-    letter-spacing: 10px;
-    cursor: pointer;
-    color: white;
-}
+
+
+
+
+
+
 
 
 /*  Responsive for Header */
@@ -494,13 +490,20 @@ footer {
     .box1,
     .box2,
     .box3,
-    .box4{
+    .box4 {
         width: 200px;
         background-color: #F7F7F7;
         border-radius: 20px;
         margin: 20px;
     }
-    /* Footer Section design */
 
-    
+    /* Footer Section design */
+    .container{
+        flex-direction: column;
+    }
+    .row{
+        width: 100%;
+        padding: 50px;
+    }
+
 }
