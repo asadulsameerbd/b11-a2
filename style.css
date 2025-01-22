@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Color */
-/* 
-    orange : #FEA301
-    skyblue: #01ACFD 
-    white : #F7F7F7 
-    */
+marquee{
+    font-family: Quicksand;
+    font-size: 20px;
+    color:#FEA301;
+    font-weight: 700;
+}
 html,
 body {
     background-color: #f7f7ff;
@@ -571,11 +571,10 @@ li>a{
     .stories-container {
         margin-top: 600px;
     }
-
-    .multiple-box {
-        width: 500px;
+    .multiple-box{
+        width: 400px;
+        /* justify-content: center; */
     }
-
     .box1,
     .box2,
     .box3,
@@ -599,11 +598,12 @@ li>a{
         top: 420px;
         left: 320px;
         padding: 3px 10px;
+        font-size: 8px;
     }
     .date4{
         top: 420px;
         left: 50px;
-        padding: 3px 10px;
+        padding: 3px 15px;
     }
 
     /* Footer Section design */
