@@ -127,6 +127,10 @@ nav ul li .li4 {
     display: flex;
     max-width: 1200px;
     margin: 0px auto;
+    height: 700px;
+}
+.rightside{
+    align-content: center;
 }
 
 .leftside {
@@ -524,7 +528,7 @@ li>a{
 
     #banner {
         flex-direction: column-reverse;
-        padding: 15px;
+        margin: 100px 20px;
     }
 
     .rightside>img {
