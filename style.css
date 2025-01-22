@@ -524,11 +524,12 @@ li>a{
     }
     .nav-container {
         width: 100%;
+        border-bottom:1px solid rgba(216, 167, 5, 0.300) ;
     }
 
     #banner {
         flex-direction: column-reverse;
-        margin: 100px 20px;
+        margin: 180px 20px;
     }
 
     .rightside>img {
