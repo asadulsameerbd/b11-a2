@@ -276,9 +276,11 @@ nav ul li .li4 {
     display: flex;
     width: 1200px;
     margin: 10px auto;
+    position: relative;
 }
 
 .multiple-box {
+    position: relative;
     width: 622px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -328,7 +330,81 @@ nav ul li .li4 {
     padding: 20px;
     text-align: left;
 }
-
+.date{
+    position: absolute;
+    left: 200px;
+    top: 355px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(60, 216, 232);;
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+    padding: 10px;
+    border-radius: 45px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.date1{
+    position: absolute;
+    left: 45px;
+    top: 150px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(95, 122, 18);;
+    font-family: Raleway;
+    font-size: 12.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+    padding: 8px;
+    border-radius: 45px;
+    text-align: left;
+    text-transform: capitalize;    
+}
+.date2{
+    position: absolute;
+    left: 400px;
+    top: 150px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(122, 73, 18);;
+    font-family: Raleway;
+    font-size: 12.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+    padding: 10px;
+    border-radius: 45px;
+    text-align: left;
+    text-transform: capitalize;      
+}
+.date3{
+    position: absolute;
+    left: 400px;
+    top: 470px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 124, 4);;
+    font-family: Raleway;
+    font-size: 12.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+    padding: 10px;
+    border-radius: 45px;
+    text-align: left;
+    text-transform: capitalize;      
+}
+.date4{
+    position: absolute;
+    left: 60px;
+    top: 480px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 102, 199);;
+    font-family: Raleway;
+    font-size: 12.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+    padding: 8px;
+    border-radius: 45px;
+    text-align: left;
+    text-transform: capitalize;      
+}
 .single-box {
     width: 630px;
     background-color: #f7f7ff;
@@ -504,6 +580,26 @@ li>a{
         background-color: #F7F7F7;
         border-radius: 20px;
         margin: 20px;
+    }
+    .date1{
+        top: 120px;
+        left: 50px;
+        padding: 3px 10px;
+    }
+    .date2{
+        top: 120px;
+        left: 300px;
+        padding: 3px 10px;
+    }
+    .date3{
+        top: 420px;
+        left: 320px;
+        padding: 3px 10px;
+    }
+    .date4{
+        top: 420px;
+        left: 50px;
+        padding: 3px 10px;
     }
 
     /* Footer Section design */
