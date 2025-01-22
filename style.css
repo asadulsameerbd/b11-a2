@@ -6,7 +6,8 @@
     skyblue: #01ACFD 
     white : #F7F7F7 
     */
-html,body{
+html,
+body {
     background-color: #f7f7ff;
 }
 
@@ -140,12 +141,13 @@ nav ul li .li4 {
     padding: 10px;
     font-family: Quicksand;
     font-size: 20px;
-    font-weight:400;
+    font-weight: 400;
 }
-.butt{
+
+.butt {
     margin: 10px;
     background-color: black;
-    color:#F7F7F7;
+    color: #F7F7F7;
     padding: 10px 30px;
     font-size: 20px;
     font-family: Quicksand;
@@ -157,7 +159,7 @@ nav ul li .li4 {
 
 
 /* Curriculum  Section Start from here */
-#curriculum{
+#curriculum {
     background-image: url(assets/bg.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -167,54 +169,61 @@ nav ul li .li4 {
     justify-content: center;
 }
 
-.curr-title{
+.curr-title {
     font-family: Quicksand;
     font-size: 45px;
     font-weight: 800;
     text-align: center;
     margin-bottom: 80px;
 }
-.card-container{
+
+.card-container {
     max-width: 1000px;
     margin: 0px auto;
     display: flex;
     gap: 20px;
 }
-.card{
+
+.card {
     width: 333px;
     justify-items: center;
-    background-image: linear-gradient(#DEF5FF,#f7f7ff);
+    background-image: linear-gradient(#DEF5FF, #f7f7ff);
     padding: 50px 20px;
     border-radius: 15px;
 }
-.card2{
+
+.card2 {
     width: 333px;
     justify-items: center;
-    background-image: linear-gradient(#FFF4DC,#ffffff);
+    background-image: linear-gradient(#FFF4DC, #ffffff);
     padding: 50px 20px;
     border-radius: 15px;
 }
-.card3{
+
+.card3 {
     width: 333px;
     justify-items: center;
-    background-image: linear-gradient(#f3eefa,#ffffff);
+    background-image: linear-gradient(#f3eefa, #ffffff);
     padding: 50px 20px;
     border-radius: 15px;
 }
-.card-title{
+
+.card-title {
     font-family: Quicksand;
     font-size: 24px;
     font-weight: 700;
-    padding:10px;
-    text-align:center;
+    padding: 10px;
+    text-align: center;
 }
-.card-description{
+
+.card-description {
     font-family: raleway;
     font-size: 15px;
     padding: 10px;
-    text-align:center;
+    text-align: center;
 }
-.btn-card{
+
+.btn-card {
     font-family: Quicksand;
     font-size: 15px;
     font-weight: 600;
@@ -223,26 +232,32 @@ nav ul li .li4 {
     color: #64C8FF;
     cursor: pointer;
 }
-.icon1,.icon2{
+
+.icon1,
+.icon2 {
     background-color: #FEA301;
     border-radius: 50%;
     font-size: 20px;
     padding: 10px 12px;
     color: #f3eefa;
 }
-.icon{
+
+.icon {
     padding-top: 50px;
     text-align: center;
 }
 
 /* Story Section Style Start from here */
-#stories{
+#stories {
     background-image: url(assets/bg.png);
 }
-.stories-container{
-    background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+
+.stories-container {
+    background: url(image), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+    padding-bottom: 50px;
 }
-.stories-title{
+
+.stories-title {
     color: rgb(0, 0, 0);
     font-family: Quicksand;
     font-size: 46px;
@@ -252,23 +267,31 @@ nav ul li .li4 {
     text-align: center;
     padding-bottom: 50px;
 }
-.stori-container{
+
+.stori-container {
     display: flex;
     width: 1200px;
     margin: 10px auto;
 }
-.multiple-box{
+
+.multiple-box {
     width: 622px;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
-.box1, .box2, .box3, .box4 , .single-box{
+
+.box1,
+.box2,
+.box3,
+.box4,
+.single-box {
     width: 250px;
     background-color: #F7F7F7;
     border-radius: 20px;
     margin: 20px;
 }
-.box-title{
+
+.box-title {
     color: rgb(0, 0, 0);
     font-family: Quicksand;
     font-size: 28px;
@@ -277,7 +300,11 @@ nav ul li .li4 {
     text-align: left;
     padding: 20px;
 }
-.box-title1, .box-title2, .box-title3, .box-title4{
+
+.box-title1,
+.box-title2,
+.box-title3,
+.box-title4 {
     color: rgb(0, 0, 0);
     font-family: Quicksand;
     font-size: 15.34px;
@@ -287,7 +314,8 @@ nav ul li .li4 {
     text-align: left;
     padding: 20px;
 }
-.box-description{
+
+.box-description {
     color: rgb(102, 102, 102);
     font-family: Raleway;
     font-size: 15.34px;
@@ -296,7 +324,8 @@ nav ul li .li4 {
     padding: 20px;
     text-align: left;
 }
-.single-box{
+
+.single-box {
     width: 630px;
     background-color: #f7f7ff;
     border-radius: 20px;
@@ -304,7 +333,8 @@ nav ul li .li4 {
     height: auto;
     margin: 20px;
 }
-img{
+
+img {
     width: 100%;
     border-radius: 20px 20px 0px 0px;
 }
@@ -312,14 +342,79 @@ img{
 
 /* Footer Section Start From here */
 
-footer{
-    background-color: #01ACFD;
+footer {
+    background-color: #F7F7F7;
     height: 400px;
+    align-content: center;
 }
 
+.footer-container {
+    width: 1200px;
+    margin: 0px auto;
+    align-content: center;
+    display: flex;
+}
 
+.logo-part,
+.about-part,
+.keep-part {
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+}
+.about-part>h1{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
 
+.l-im {
+    display: flex;
+}
 
+.l-im img {
+    width: 82.9px;
+    height: 81.65px;
+    padding: 0px 20px;
+}
+
+.l-im h3 , .about-part>h1 , .keep-part>h1{
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 42.14px;
+    font-weight: 700;
+    line-height: 39.51px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.logo-details{
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding:30px;
+}
+.footer-nav>ul{
+    flex-direction: column;
+    text-align: left;
+    align-items: start;
+    justify-content: flex-start;
+}
+.footer-nav li{
+    line-height: 40px;
+}
+.footer-nav ul li>a{
+    color: #000;
+    text-align: left;
+}
+.keep-part>i{
+    font-size: 25px;
+    padding-top: 40px;
+    letter-spacing: 10px;
+    cursor: pointer;
+}
 
 
 /*  Responsive for Header */
@@ -335,34 +430,41 @@ footer{
     .nav-container {
         width: 100%;
     }
-    #banner{
+
+    #banner {
         flex-direction: column-reverse;
         padding: 15px;
     }
-    .rightside>img{
+
+    .rightside>img {
         width: 100%;
         justify-content: center;
     }
-    .leftside{
+
+    .leftside {
         text-align: center;
     }
-    .banner-title{
+
+    .banner-title {
         font-size: 32px;
     }
-    .banner-description{
+
+    .banner-description {
         font-size: 14px;
     }
 
     /* Curriculum Section style start from here */
-    .card-container{
+    .card-container {
         flex-direction: column;
         align-items: center;
         margin-bottom: 50px;
     }
-    .curr-title{
+
+    .curr-title {
         padding-top: 50px;
     }
-    .icon{
+
+    .icon {
         display: none;
     }
 }
