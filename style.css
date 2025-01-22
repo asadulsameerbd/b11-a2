@@ -531,6 +531,9 @@ li>a{
         flex-direction: column-reverse;
         margin: 180px 20px;
     }
+    .mrq{
+        font-size: 100%;
+    }
 
     .rightside>img {
         width: 100%;
